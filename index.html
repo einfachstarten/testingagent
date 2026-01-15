@@ -3,45 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TestingAgent</title>
-<link rel="stylesheet" href="style.css">
+<title>FEAT-0003 Demo</title>
+<link href="styles.css" rel="stylesheet">
 </head>
-<body>
-<header>
-<h1>Welcome to TestingAgent</h1>
+<body class="bg-gray-100 font-sans">
+<header class="bg-indigo-700 text-white p-4 flex justify-between items-center">
+  <div>Company Logo</div>
+  <nav>
+    <ul class="flex space-x-4">
+      <li><a href="#" class="hover:underline">Home</a></li>
+      <li><a href="#" class="hover:underline">About</a></li>
+      <li><a href="#" class="hover:underline">Services</a></li>
+      <li><a href="#" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
 </header>
-<nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-<main>
-<section id="home">
-<h2>Home</h2>
-<p>This is the home section.</p>
-</section>
-<section id="about">
-<h2>About</h2>
-<p>Learn more about TestingAgent.</p>
-</section>
-<section id="services">
-<h2>Services</h2>
-<ul>
-<li>Coding Agent Setup</li>
-<li>PR Workflows</li>
-<li>Automated Code Generation</li>
-</ul>
-</section>
-<section id="contact">
-<h2>Contact</h2>
-<p>Get in touch with us.</p>
-</section>
-</main>
-<footer>
-<p>&copy; 2026 TestingAgent. All rights reserved.</p>
+<div class="hero min-h-screen bg-cover bg-center" style="background-image:url('https://source.unsplash.com/random/1920x1080');">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-white">
+    <h1 class="text-5xl font-bold">Welcome to Our Website</h1>
+    <p class="py-6">We offer innovative solutions for your needs.</p>
+    <button class="btn btn-primary rounded-full shadow-lg hover:opacity-90 focus:ring-2 ring-indigo-400 active:bg-indigo-800">Get Started</button>
+  </div>
+</div>
+<div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
+    <h2 class="text-xl font-bold">Service 1</h2>
+    <p>Our first service offering.</p>
+  </div>
+  <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
+    <h2 class="text-xl font-bold">Service 2</h2>
+    <p>Another service we provide.</p>
+  </div>
+  <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
+    <h2 class="text-xl font-bold">Service 3</h2>
+    <p>Our third and final service.</p>
+  </div>
+</div>
+<footer class="bg-gray-800 text-white p-4 text-center">
+  &copy; 2026 Company Name. All rights reserved.
 </footer>
 <script src="script.js"></script>
 </body>
