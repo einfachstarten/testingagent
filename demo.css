@@ -1,0 +1,49 @@
+/* STYLE-001 CSS File */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ecf0f1;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 1.5rem;
+}
+
+.content-section {
+  margin: auto;
+  max-width: 720px;
+  padding: 1rem;
+}
+
+button, a {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+
+button:hover, a:hover {
+  background-color: #ecf0f1;
+}
+
+button:focus, a:focus {
+  outline: none;
+  box-shadow: 0 0 2px rgba(52, 152, 219, 0.6);
+}
+
+button.active, a.active {
+  background-color: #ecf0f1;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .content-section {
+    max-width: 960px;
+  }
+}
