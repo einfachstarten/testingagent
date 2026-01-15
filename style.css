@@ -1,22 +1,7 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-.header,
-.main-content,
-.footer {
-  padding: 20px;
-}
-.header {
-  background-color: #4CAF50;
-  color: white;
-}
-.main-content {
-  background-color: #f1f1f1;
-}
-.footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-}
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background-color: #333; color: #fff; padding: 1rem; text-align: center; }
+nav ul { list-style-type: none; margin: 0; padding: 0; }
+nav ul li { display: inline; margin-right: 1rem; }
+nav ul li a { color: #fff; text-decoration: none; }
+main { padding: 2rem; }
+footer { background-color: #333; color: #fff; text-align: center; padding: 1rem; position: fixed; bottom: 0; width: 100%; }
