@@ -1,2 +1,1 @@
-// Add your JavaScript code here
-console.log('JavaScript is ready!');
+// No JavaScript needed for this demo
