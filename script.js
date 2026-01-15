@@ -1,2 +1,2 @@
-// Add your JavaScript code here
-console.log('JavaScript is ready!');
+// Sample script to log a message
+console.log('Sample page loaded');
