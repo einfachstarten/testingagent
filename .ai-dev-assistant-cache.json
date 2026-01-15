@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "project_type": "Unknown",
+  "dependencies": {},
+  "files": {
+    "README.md": {
+      "path": "/Users/marcus.braun/repos/einfachstarten/testingagent/README.md",
+      "relative_path": "README.md",
+      "size": 264,
+      "extension": ".md",
+      "is_code": true,
+      "content": "# TestingAgent\n\nWe\u00b4re testing the coding agent setup\n\n## Project Information\n\n- Created: 2026-01-15T12:47:13.661835\n- Managed by: AI Dev Assistant\n\n## Getting Started\n\nThis project is managed using AI Dev Assistant for automated code generation and PR workflows.\n",
+      "content_hash": "ca894adc98f604ab6083b01a863d2097",
+      "lines": 13
+    }
+  }
+}
