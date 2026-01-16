@@ -13,11 +13,6 @@
 </head>
 <body class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-12">
   <div class="max-w-7xl mx-auto px-4 space-y-8">
-    <nav>
-      <ul class="flex justify-between items-center mb-8">
-        <li class="text-base font-semibold text-slate-700 hover:text-blue-500"><a href="index.html">Home</a></li>
-      </ul>
-    </nav>
     <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
       Beautiful Heading
     </h1>
